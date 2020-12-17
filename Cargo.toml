@@ -43,6 +43,14 @@ serde_derive = "1.0.111"
 name = "test"
 path = "src/test.rs"
 
+[[bin]]
+name = "runtime"
+path = "src/runtime.rs"
+
+[[bin]]
+name = "nested"
+path = "src/nested.rs"
+
 
 
       

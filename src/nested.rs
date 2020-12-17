@@ -31,6 +31,7 @@ async fn nested_arc(executor: Arc<Executor<'_>>) {
                 pingpong(ex.clone()).await;
             }
         });
+    task.await;
     }
 }
 
